@@ -65,22 +65,22 @@ figure {
     display: block;
 }
 .card-title {
-    font-size: 48px;
+    font-size: 40px;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
 .card-text {
     font-size: 36px;
-    height: 328px;
+    height: 600px;
     overflow: hidden;
 }
 .card-body {
     background-color: #fff;
-    background: url('logo.PNG');
+    background: url('Logo.PNG');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 800px;
     padding: 2rem;
 }
 figure {
