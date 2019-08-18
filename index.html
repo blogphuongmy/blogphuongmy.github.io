@@ -83,7 +83,7 @@
         var app = angular.module('MyApp', [])
         app.controller('MyController', function ($scope, $window) {
             $scope.OpenPopupWindow = function () {
-                var $popup = $window.open("popup.html", "popup", "width=800,height=500,left=20,top=20");
+                var $popup = $window.open("https://blogphuongmy.github.io/popup.html", "popup", "width=800,height=500,left=20,top=20");
                 $popup.typeNews = $scope.typeNews;
                 $popup.imgSrc = $scope.imgSrc;
                 $popup.source = $scope.source;
